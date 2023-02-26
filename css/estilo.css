@@ -1,26 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-    background-color: bisque;
+    
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .logo {
     width: 50px;
 }
 
-.nav-link active {
-    color: aqua;
-}
-
 .colorFondo {
-    background-color: maroon;
+    background-color: violet;
 }
 
 .piePagina {
-    margin-top: 5px;
+    /* margin-top: 5px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
     justify-content: center;
     align-items: center;
     border: 5px solid chocolate;
@@ -50,14 +47,18 @@ body {
 }
 
 .tamañoimagenindex {
-    margin-top: 2000px;
     width: 200px;
     height: 200px;
 }
 
-h5{
-    min-height: 400px;
+footer{
+    margin-top: 50px;
+}
+
+.video {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+    min-height: 50vh;
+  }
